@@ -337,4 +337,11 @@ public class BlockFactoryMachine extends BlockFactory implements IRedNetOmniNode
 			onNeighborBlockChange(world, x, y, z, MFRThings.rednetCableBlock);
 		}
 	}
+	
+	//This should make IC2 wires connect to MFR machienes?
+	
+	public TileEntityIndustrialCraftConsumer()
+    	{
+		this(0);
+    	}
 }
